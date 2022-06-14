@@ -11,6 +11,15 @@ footer {
     margin: 0 calc(50% - 500px);
 }
 
+body > * {
+    margin-bottom: 60px;
+}
+body > *:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+/* header style */
+
 img {
     float: left;
 }
@@ -19,17 +28,31 @@ nav {
     float: right;
 }
 
-a {
+nav a {
     color: #333;
     text-decoration: none;
     font-size: 20px;
     margin-left: 50px;
 }
-a:first-child {
+nav a:first-child {
     margin: 0;
 }
-a:hover {
+nav a:hover {
     text-decoration: underline;
     color: #649;
     cursor: pointer;
+}
+
+/* main style */
+main {
+}
+
+/* footer style */
+div {
+    float: left;
+}
+div a {
+}
+p {
+    float: right;
 }
