@@ -6,13 +6,9 @@ body {
 .container {
     display: inline-block;
     width: 1000px;
-    margin: 0 calc(50% - 500px);
+    margin: 0 calc(50% - 500px) 60px;
 }
-
-body > * {
-    margin-bottom: 60px;
-}
-body > *:nth-last-child(2) {
+.container:nth-last-child(2) {
     margin-bottom: 0;
 }
 
@@ -55,4 +51,5 @@ main {
 
 .copyright {
     float: right;
+    margin: 0;
 }
