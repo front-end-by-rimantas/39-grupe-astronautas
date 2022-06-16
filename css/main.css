@@ -51,10 +51,12 @@ body {
     display: block;
     font-weight: 100;
 }
-
-.line {
+.main-title::after {
+    content: '';
+    display: block;
     width: 100px;
     height: 3px;
+    margin-top: 10px;
     background-color: #649;
 }
 
