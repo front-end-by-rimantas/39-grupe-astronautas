@@ -12,7 +12,7 @@
     border: 0.1em solid #649;
     border-radius: 1.5em;
     box-shadow: 0 4px 8px #7778;
-    transition: all 3s;
+    transition: all 0.3s;
 }
 .btn:hover {
     background-color: #fff;
